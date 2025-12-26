@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{d4612980-5832-43a5-afd0-4261eaf148f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Gameplay">
+      <UniqueIdentifier>{3985144e-cc04-4ead-9d87-dd179017f7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{1686c7c8-ab11-42d3-b23e-164df0dcf960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{a9ce0fbf-9bd8-4c4d-b9b0-c8a5dfb51093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{ee4e267d-115e-47ca-b8b6-89dfe6124ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Result">
+      <UniqueIdentifier>{24468284-4e3b-4b0e-926a-30984d327a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource">
+      <UniqueIdentifier>{ca2cc6a0-bca6-4020-8e4e-34459dbb0181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Camera">
+      <UniqueIdentifier>{8bf8b4d5-7e00-4931-b82a-d5f1067200b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Render">
+      <UniqueIdentifier>{79524728-3aa5-4d32-a6f8-32f37e55243a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Render\Model">
+      <UniqueIdentifier>{d0805949-b0c6-45cb-93b8-1cab89527ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Render\Polygon">
+      <UniqueIdentifier>{7fb8540a-4750-47dc-ad2f-ce798bfe6702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\MapData">
+      <UniqueIdentifier>{374fb4cc-4138-49a4-8a4e-3975c35b108f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="custompolygon.cpp">
+      <Filter>ソース ファイル\Render\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="textureloader.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="keylogger.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scenemanager.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>ソース ファイル\Render\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>ソース ファイル\Render\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_move.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera._tracking.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\Render\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\Render\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>ソース ファイル\Render\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="golf_course.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\Render\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>ソース ファイル\Render\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="shot.cpp">
+      <Filter>ソース ファイル\Scene\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\Scene\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="trail.cpp">
+      <Filter>ソース ファイル\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_pov.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ソース ファイル\System\MapData</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_easing.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="custom3d.cpp">
+      <Filter>ソース ファイル\Render\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="custompolygon.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="debugPrintf.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="textureloader.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="keylogger.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="scenemanager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_move.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_tracking.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="golf_course.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="shot.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="trail.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_pov.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Data1.h">
+      <Filter>ソース ファイル\System\MapData</Filter>
+    </ClInclude>
+    <ClInclude Include="Data2.h">
+      <Filter>ソース ファイル\System\MapData</Filter>
+    </ClInclude>
+    <ClInclude Include="MapData.h">
+      <Filter>ソース ファイル\System\MapData</Filter>
+    </ClInclude>
+    <ClInclude Include="Data3.h">
+      <Filter>ソース ファイル\System\MapData</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_easing.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="custom3d.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="skydome.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader2d.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+/*==============================================================================
+
+   íËå^3Dê}å`ï`âÊ [cube.hpp]
+														 Author : ç˜à‰óDãP
+														 Date   : 24/10/16
+--------------------------------------------------------------------------------
+
+==============================================================================*/
+#pragma once
+
+#include "main.h"
+
+void InitCube();
+void UninitCube();
+
+void DrawCube(const XMMATRIX& world, int textureID = NULL, int patternNo = 0, int xPatternCount = 0, int yPatternCount = 0);
